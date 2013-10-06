@@ -1,5 +1,5 @@
 /*
-Theme Name: New Child Theme
+Theme Name: Light2Labrador
 Theme URI: http://wordpress.org/themes/twentythirteen
 Author: Andrew Minion, the WordPress team
 Author URI: http://andrewrminion.com
@@ -833,6 +833,22 @@ img.wp-smiley,
 	margin: 0;
 }
 
+.header-photo {
+	position: relative;
+	z-index: 100;
+	width: 273px;
+	margin-left: 3%;
+}
+
+.header-swoosh {
+	position: fixed;
+	z-index: 60;
+	top: 0;
+}
+
+.logged-in .header-swoosh {
+	top: 28px;
+}
 
 /**
  * 4.2 Navigation
