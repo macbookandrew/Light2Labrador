@@ -837,6 +837,39 @@ img.wp-smiley,
 	margin: 0;
 }
 
+@media (min-width: 750px) {
+	.site-header {
+		background: url(http://light2labrador.com/wp-content/themes/minion-nate/images/header-background-full.jpg) no-repeat scroll top;
+		background-size: 1600px auto;
+		}
+	.header-swoosh {
+		position: fixed;
+		top: 0;
+	}
+	.logged-in .header-swoosh {
+		top: 28px;
+	}
+}
+@media (max-width: 749px) {
+	.site-header {
+		background: 
+		url(http://light2labrador.com/wp-content/themes/minion-nate/images/header-background-750.jpg) no-repeat scroll 75% 115px;
+		background-size: 750px auto;
+		height: 375px;
+		}
+	.site-header::before {
+		content: "";
+		background: url(http://light2labrador.com/wp-content/themes/minion-nate/images/header-title-only.png) no-repeat scroll center #57719d;
+		display: block;
+		width: 100%;
+		min-height: 115px;
+		box-shadow: 0 2px 3px rgba(0,0,0,0.4);
+	}
+	.header-swoosh  {
+		display: none;
+	}
+}
+
 .header-photo {
 	position: relative;
 	z-index: 100;
@@ -845,14 +878,9 @@ img.wp-smiley,
 }
 
 .header-swoosh {
-	position: fixed;
 	z-index: 60;
-	top: 0;
 }
 
-.logged-in .header-swoosh {
-	top: 28px;
-}
 
 /**
  * 4.2 Navigation
