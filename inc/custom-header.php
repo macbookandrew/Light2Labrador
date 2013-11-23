@@ -113,14 +113,6 @@ function twentythirteen_header_style() {
 			clip: rect(1px, 1px, 1px, 1px);
 		}
 	<?php
-			if ( empty( $header_image ) ) :
-	?>
-		.site-header .home-link {
-			min-height: 0;
-		}
-	<?php
-			endif;
-
 		// If the user has set a custom color for the text, use that.
 		elseif ( $text_color != get_theme_support( 'custom-header', 'default-text-color' ) ) :
 	?>
