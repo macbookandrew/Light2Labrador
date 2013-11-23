@@ -32,6 +32,18 @@
 </head>
 
 <body <?php body_class(); ?>>
+	<script type="text/javascript">
+	var mq = window.matchMedia( "(min-width: 750px)" );
+	if (mq.matches) {
+		jQuery(window).scroll(function( $ ){
+			if(jQuery(window).scrollTop()<160){
+				jQuery('.header-photo').fadeIn(200);
+			} else {
+				jQuery('.header-photo').fadeOut(200);
+			}
+		});
+	}
+	</script>
 	<div id="page" class="hfeed site">
 		<header id="masthead" class="site-header" role="banner">
 			<img class="header-swoosh" src="<?php echo get_stylesheet_directory_uri(); ?>/images/header-swoosh.png" />
