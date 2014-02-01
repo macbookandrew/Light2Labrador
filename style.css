@@ -178,7 +178,6 @@ h6 {
 }
 
 address {
-	font-style: italic;
 	margin: 0 0 24px;
 }
 
@@ -1158,6 +1157,21 @@ ul.nav-menu li:hover > ul,
 	-ms-hyphens:     auto;
 	hyphens:         auto;
 	word-wrap: break-word;
+}
+
+.entry-content h1 {
+	font-size: 2rem;
+}
+
+.entry-content h2 {
+	font-size: 1.5rem;
+}
+
+.entry-content h3,
+.entry-content h4,
+.entry-content h5,
+.entry-content h6 {
+	font-size: 1rem;
 }
 
 .entry-content a,
