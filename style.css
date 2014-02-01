@@ -976,6 +976,8 @@ ul.nav-menu li:hover > ul,
 	margin: 0 auto;
 	max-width: 1600px;
 	width: 100%;
+	z-index: 100;
+	position: relative;
 }
 
 .site-header .search-form {
