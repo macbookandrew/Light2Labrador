@@ -779,6 +779,8 @@ img.wp-smiley,
 	max-width: 1600px;
 	width: 100%;
 	background-color: #fff;
+	background: url(images/lighthouse-background.jpg) no-repeat 0 150px #fff;
+	background-size: 100%;
 }
 
 .site-main {
@@ -872,6 +874,9 @@ img.wp-smiley,
 	}
 	.header-swoosh  {
 		display: none;
+	}
+	.site {
+		background-position: 0 350px;
 	}
 }
 
@@ -2995,6 +3000,9 @@ footer.entry-meta {
 
 /* Mobile devices */
 @media (max-width: 359px) {
+	.site {
+		background-image: none;
+	}
 	.gallery {
 		margin-left: 0;
 	}
