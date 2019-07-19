@@ -46,7 +46,7 @@
 			<a class="home-link" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
 				<h1 class="site-title"><?php bloginfo( 'name' ); ?></h1>
 				<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
-				<img class="header-photo" src="<?php echo get_stylesheet_directory_uri(); ?>/images/header-photo-2015-12-30.png" />
+				<img class="header-photo" src="<?php echo get_stylesheet_directory_uri(); ?>/images/header-photo-2019-07-18.jpg" />
 			</a>
 
 			<div id="navbar" class="navbar">
